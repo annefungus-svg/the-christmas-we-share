@@ -1,0 +1,13 @@
+{
+  "name": "the-christmas-we-share",
+  "main": "the-christmas-we-share/worker.mjs",
+  "compatibility_date": "2026-11-15",
+  "workers_dev": true,
+  "assets": {
+    "directory": "./the-christmas-we-share/public",
+    "binding": "ASSETS",
+    "run_worker_first": [
+      "/api/*"
+    ]
+  }
+}
