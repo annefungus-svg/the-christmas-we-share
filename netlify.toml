@@ -1,0 +1,10 @@
+[build]
+  command = "unzip -oq The-Christmas-We-Share-release.zip"
+  publish = "the-christmas-we-share/public"
+  functions = "the-christmas-we-share/netlify/functions"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+[functions]
+  node_bundler = "esbuild"
